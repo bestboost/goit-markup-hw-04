@@ -3,7 +3,8 @@
 --main-text-color: #757575;
 --secondary-text-color: #FFFFFF;
 --title-color: #212121;
---accent-color: #2196F3; }
+--accent-color: #2196F3;
+--icon-color: #AFB1B8; }
 
 body {
 
@@ -317,14 +318,14 @@ color: var(--accent-color);
 /* social link */
 .social-link {
     display: inline-flex;
-    align-items:center;
+  
     width: 44px;
     height: 44px; 
     margin-bottom: 30px;
     padding: 0;
     border-radius: 50%;
 
-    color:#afb1b8;
+    color: var(--icon-color);
 }
 
 .social-link:first-of-type {
@@ -350,6 +351,48 @@ color: var(--accent-color);
 .team-icon:hover {
     fill: var(--secondary-text-color);
 }
+
+
+/* company clients */
+
+.clients {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.clients-link {
+    padding: 0;
+    border: 4px solid var(--icon-color);
+    width: 170px;
+    height: 90px;
+    color: var(--icon-color);
+    background-color: yellow;
+}
+
+.clients-link:hover {
+    border: 4px solid var(--accent-color);
+    color: var(--accent-color);
+}
+
+.clients-link:not(:last-child) {
+    margin-right: 30px;
+}
+
+.clients-icon {
+    fill: currentColor;
+    background-color: red;
+}
+
+.group1 {
+    width: 106px;
+    height: 60px;
+    padding: 7px 33px 6.3px 32px;
+    margin: 16px 32px;
+    
+    background-color: green;
+}
+
 
 
 
