@@ -353,6 +353,10 @@ color: var(--accent-color);
 
 
 /*clients companys */
+.clients-list{
+    display: flex;
+    align-items: center;
+}
 
 .clients {
     display: inline-flex;
@@ -361,6 +365,7 @@ color: var(--accent-color);
     padding: 0;
     margin: 0;
     border: 1px solid var(--icon-color);
+    border-radius: 4px;
     width: 170px;
     height: 90px;
     color: var(--icon-color);
